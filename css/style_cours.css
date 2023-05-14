@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{
+	font-family: 'Birthsrone';
+	src:url("../polices/Birthstone-Regular.ttf");
+}
+@font-face{
+	font-family: 'Hightower';
+	src:url("../polices/HTOWERT.TTF");
+}
+
+:root{
+	--main-color: #E37BAF;
+}
+
+h3{
+	text-align: center!important;
+}

@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face{
+	font-family: 'Birthsrone';
+	src:url("../polices/Birthstone-Regular.ttf");
+}
+@font-face{
+	font-family: 'Hightower';
+	src:url("../polices/HTOWERT.TTF");
+}
+
+:root{
+	--main-color: #E37BAF;
+}
+
+#register{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#register label{
+	text-align: left!important;
+}
+
+#infos input{
+	width: 40%;
+	margin: 2%;
+	border: solid;
+	border-width: 2px;
+	border-color: var(--main-color);
+	border-radius: 1em;
+	padding-left: 0.5em;
+	font-size: 1em;
+}
+
+#for input, #pai input{
+	font-size: 0.5em;
+	width: 5%;
+}
+
+#for, #pai{
+	text-align: left!important;
+	width: 100%;
+}
+
+label{
+	font-size: 1em!important;
+}
+
+#submit{
+	color: white;
+	border-radius: 10em;
+	margin-top: 2.5em;
+	height: 4em;
+	width: 40%;
+	background-color: var(--main-color);
+	font-size: 1.5em!important;
+}
+
+#submit:hover{
+	color: var(--main-color);
+	background-color: white;
+	border: solid;
+	border-color: var(--main-color);
+	border-width: 4px;
+}
+
+#age{
+	color: var(--main-color);
+}
+@media screen and (max-width: 1000px){
+	#infos input{
+		width: 100%;
+		margin: 0;
+		margin-bottom: 1em;
+	}
+	
+	#submit{
+		width: 80%;
+	}
+}

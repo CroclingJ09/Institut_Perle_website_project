@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{
+	font-family: 'Birthsrone';
+	src:url("../polices/Birthstone-Regular.ttf");
+}
+@font-face{
+	font-family: 'Hightower';
+	src:url("../polices/HTOWERT.TTF");
+}
+
+:root{
+	--main-color: #E37BAF;
+}
+
+#main{
+	width: 70%!important;
+	margin-left: 15%!important;
+	margin-right: 15%!important;
+}
+
+.text{
+	text-align: left!important;
+	width: 40%;
+}
+
+p{
+	text-align: left!important;
+}
+
+.img1, .img2{
+	width: 50%;
+}
+
+.prest{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 6em;
+}
+
+#listdownload{
+	text-align: center!important;
+	padding-bottom: 2em;
+}
+
+#download{
+	width: 100%;
+}
+
+@media screen and (max-width: 1200px){
+	#main{
+		width: 90%!important;
+		margin-left: 5%!important;
+		margin-right: 5%!important;
+	}
+}
+
+@media screen and (max-width: 1000px){
+	
+}
